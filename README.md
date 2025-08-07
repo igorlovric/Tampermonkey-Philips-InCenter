@@ -11,9 +11,13 @@ This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InC
 ## 🧩 Features
 
 ✅ Adds user-friendly buttons directly to the PDF toolbar
+
 ✅ Adds additional options to dropdown menu
+
 ✅ No changes to the original page layout  
+
 ✅ Works seamlessly within the InCenter PDF viewer  
+
 ✅ Helps users interact more easily with documents
 
 ## 📥 Installation
