@@ -21,7 +21,7 @@ This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InC
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension (if you haven't already).
 2. Click the link below to install the script:
 
-   👉 [Install the Script](https://github.com/igorlovric/Tampermonkey-Philips-InCenter/raw/refs/heads/master/Philips-Incenter.user.js) *(replace with actual URL)*
+   👉 [Install the Script](https://github.com/igorlovric/Tampermonkey-Philips-InCenter/raw/refs/heads/master/Philips-Incenter.user.js)
 
 3. Open a PDF document on the Philips InCenter platform. The new buttons will appear automatically.
 
