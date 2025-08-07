@@ -1,4 +1,4 @@
-# Philips InCenter PDF Enhancer (Tampermonkey Script)
+# Philips InCenter PDF Buttons Enabler (Tampermonkey Script)
 
 This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InCenter platform by unhiding the following extra buttons:
 
