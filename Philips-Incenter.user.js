@@ -10,12 +10,6 @@
 // @grant        none
 // ==/UserScript==
 
-window.onload = function() {
-    // Your code to execute after the entire page is loaded
-    console.log("Window fully loaded!");
-};
-
-
 (function() {
     'use strict';
 
