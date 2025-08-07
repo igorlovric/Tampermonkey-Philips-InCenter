@@ -20,7 +20,7 @@ This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InC
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension (if you haven't already).
 
-2. Set permissions to execute userscripts
+2. Set permissions to execute userscripts (Allow User Scripts and enable Developer mode) (Only for Chrome)
 
    👉 [Instructions](https://www.tampermonkey.net/faq.php#Q209)
 
