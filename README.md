@@ -1,11 +1,11 @@
 # Philips InCenter PDF Enhancer (Tampermonkey Script)
 
-This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InCenter platform by adding the following extra buttons:
+This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InCenter platform by unhiding the following extra buttons:
 
 - **Open File** – Open a local PDF file in the viewer
 - **Print** – Print the currently loaded PDF
 - **Download** – Download the currently loaded PDF
-- **Text** – Toggle text selection mode
+- **Text** – Add text annotations
 - **Draw** – Enable a drawing mode for annotations (freehand)
 
 ## 🧩 Features
@@ -18,17 +18,17 @@ This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InC
 
 ## 📥 Installation
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/){:target="_blank"} browser extension (if you haven't already).
+1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension (if you haven't already).
 
-2. Set permission to execute userscripts
+2. Set permissions to execute userscripts
 
-   👉 [Instructions](https://www.tampermonkey.net/faq.php#Q209){:target="_blank"}
+   👉 [Instructions](https://www.tampermonkey.net/faq.php#Q209)
 
-2. Click the link below to install the script:
+3. Click the link below to install the script:
 
-   👉 [Install the Script](https://github.com/igorlovric/Tampermonkey-Philips-InCenter/raw/refs/heads/master/Philips-Incenter.user.js){:target="_blank"}
+   👉 [Install the Script](https://github.com/igorlovric/Tampermonkey-Philips-InCenter/raw/refs/heads/master/Philips-Incenter.user.js)
 
-3. Open a PDF document on the Philips InCenter platform. The new buttons will appear automatically.
+4. Open a PDF document on the Philips InCenter platform. The new buttons will appear automatically.
 
 ## 🖼️ Screenshot
 
