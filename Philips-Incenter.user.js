@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Philips - InCenter - Enable additional PDF buttons
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0.0_2025-08-07
+// @version      1.2.0.0_2025-10-23
 // @description  Enable Open, Save, Print, Text and Draw buttons
 // @author       Igor Lovrić
 // @match        https://philips.mizecx.com/knowledgeDocument.html*
@@ -14,6 +14,8 @@
 
     var interval = setInterval(function () { // Wait for PDF to load
         var docFrame = document.getElementById('docFrame');
+
+        // PDF Downloader
         if (docFrame && docFrame.contentDocument) {
             var downloadButton = docFrame.contentDocument.querySelector('#download');
             if (downloadButton) {
@@ -69,5 +71,40 @@
                 }
             }
         }
+
+
+        // Video Downloader
+        if (docFrame && docFrame.tagName.toLowerCase() === 'video') {
+            const src = docFrame.getAttribute('src');
+           clearInterval(interval);
+
+            if (src) {
+                const fullUrl = new URL(src, window.location.origin).href;
+
+
+                const downloadBtn = document.getElementById('downloadDoc');
+                if (downloadBtn) {
+                    // Create a new <i> element for the arrow-down button
+                    const arrowBtn = document.createElement('i');
+                    // Add appropriate icon classes (example uses Font Awesome or similar)
+                    arrowBtn.className = 'icon-download7 pad9-left actioncol downloadDoc';
+                    arrowBtn.style.fontSize = '22px';
+                    arrowBtn.style.marginLeft = '18px';
+                    arrowBtn.title = 'Download';
+
+                    const downloadLink = document.createElement('a');
+                    downloadLink.href = fullUrl; // <-- set your video file path here
+                    downloadLink.title = 'Download Video';
+                    downloadLink.setAttribute('download', '');
+
+                    downloadLink.appendChild(arrowBtn);
+
+                    // Insert the new button right after the existing one
+                    downloadBtn.insertAdjacentElement('afterend', downloadLink);
+                }
+            }
+
+        }
     }, 1000);
 })();
+
