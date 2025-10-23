@@ -52,6 +52,11 @@ In addition, the script searches the page for a video element. If a video is fou
 - ✔️ Microsoft Edge
 - ❌ Not tested on Safari
 
+## 🕓 Change History
+- 2025-10-23 - v1.2.0.0 - Support for video download.
+- 2025-08-07 - v1.1.0.0 - Removed jQuery dependency. Add "Buttons enabled" message.
+- 2025-06-17 - v1.0.0.0 - First version (Private).
+
 ## 🔒 Disclaimer
 
 This script is provided as-is and is not affiliated with or endorsed by Philips or the InCenter platform. Use at your own risk.
