@@ -7,10 +7,13 @@ This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InC
 - **Download** – Download the currently loaded PDF
 - **Text** – Add text annotations
 - **Draw** – Enable a drawing mode for annotations (freehand)
+  In addition, the script also adds a download link for available video materials directly on the page, making it easier to save and access training or educational videos from the platform.
 
 ## 🧩 Features
 
 ✅ Adds user-friendly buttons directly to the PDF toolbar
+
+✅ Adds a “Download Video” button at the top of the page
 
 ✅ Adds additional options to dropdown menu
 
@@ -41,7 +44,7 @@ This Tampermonkey userscript enhances the built-in PDF viewer on the Philips InC
 ## ⚙️ How It Works
 
 The script unhides HTML elements in the toolbar of the PDF viewer. It detects when the viewer is loaded and adds functionality dynamically.
-
+In addition, the script searches the page for a video element. If a video is found, it automatically adds a “Download Video” button at the top of the page, providing a direct link to download the detected video file.
 ## 📄 Compatibility
 
 - ✔️ Google Chrome
